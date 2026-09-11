@@ -96,7 +96,7 @@ Here is what I did at those places
 
 - 🏫 Monterrey Ridge Elementary School San Diego, CA
 - 🏫 Oak Valley Middle School San Diego, CA
-- 🏫 Del Norte High School Class of 2029 San Diego, CA
+- 🏫 Del Norte High School Class of 2029 San Diego, California
 
 ### Culture, Family, and Fun
 
