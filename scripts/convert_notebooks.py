@@ -1,3 +1,4 @@
+import json
 import glob
 from nbconvert import MarkdownExporter
 from nbconvert.utils.exceptions import ConversionException
@@ -403,17 +404,22 @@ class UiRunner:
         )
 
     def rendered_markup_lines(self) -> list[str]:
-        """Build the final HTML/script wrapper markup inserted into rendered markdown."""
+        code = "outputElement.innerHTML = " + json.dumps(self.html) + ";\n" + self.script
+        code = code.replace("\\", "\\\\").replace("`", "\\`").replace("${", "\\${")
+        key = self.runner_id.replace("-", "_")
+
         return [
-            '<div class="ui-runner">',
-            self.html,
-            '<script>',
-            '(function() {',
-            self.script,
-            '})();',
-            '</script>',
-            '</div>',
-            '',
+            "{% capture ui_challenge_" + key + " %}",
+            self.description,
+            "{% endcapture %}",
+            "{% capture ui_code_" + key + " %}",
+            code,
+            "{% endcapture %}",
+            "{% include ui-runner.html "
+            + 'runner_id="' + self.runner_id + '" '
+            + "challenge=ui_challenge_" + key + " "
+            + "code=ui_code_" + key + " %}",
+            "",
         ]
 
     @staticmethod
