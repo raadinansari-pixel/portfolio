@@ -404,7 +404,17 @@ class UiRunner:
         )
 
     def rendered_markup_lines(self) -> list[str]:
-        code = "outputElement.innerHTML = " + json.dumps(self.html) + ";\n" + self.script
+        html_lines = self.html.strip("\n").splitlines()
+        formatted_lines = [
+            "    " + json.dumps(line)
+            for line in html_lines
+        ]
+        code = (
+            "outputElement.innerHTML = [\n"
+            + ",\n".join(formatted_lines)
+            + '\n].join("\\n");\n'
+            + self.script
+        )
         code = code.replace("\\", "\\\\").replace("`", "\\`").replace("${", "\\${")
         key = self.runner_id.replace("-", "_")
 
