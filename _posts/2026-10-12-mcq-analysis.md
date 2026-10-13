@@ -8,66 +8,6 @@ categories: [APCSP, Reflection]
 toc: false
 ---
 
-## My Work So Far
-
-| Experience | Main Takeaway |
-| --- | --- |
-| Setting up tools and my portfolio | Understand how VS Code, GitHub, and publishing connect. |
-| Preparing the Nested Conditionals lesson | Explain program decisions through clear examples. |
-| Daily Calorie Tracker CPT checkpoint | Connect lists, procedures, and algorithms to a useful program idea. |
-| Programming and SASS exercises | Practice program logic and interface organization. |
-| FOPL project planning | Define user actions, deliverables, and testing expectations. |
-| Team collaboration | Communicate progress and take responsibility for tasks. |
-| College Board MCQ practice | Identify strengths and specific areas to improve. |
-
-## Sprint 1 and 2 Retrospective
-
-At the beginning of the course, I focused on learning development tools and organizing my portfolio. I became more comfortable using VS Code, GitHub, GitHub Issues, and GitHub Pages. I also practiced using a Python virtual environment and running my project locally.
-
-My [Ground Zero evaluation](https://github.com/raadinansari-pixel/portfolio/issues/2) documented my progress with tools, coding, communication, and work habits. I recognized that I could perform more tasks than before, but still needed support with coding and troubleshooting.
-
-One important lesson was that editing a file, committing changes, and checking the published result are separate steps. When changes were not visible on my portfolio, I had to consider the entire workflow.
-
-During Sprint 2, I worked on programming and SASS activities involving Boolean expressions, nested conditionals, libraries, grids, buttons, toggles, containers, and typography. These activities helped me connect program behavior with how information is presented to a user.
-
-For our **3.07 Nested Conditionals lesson**, my assigned sections were Tech Talk 2, “Homework Before Dinner,” and Popcorn activities 1 and 2. Preparing examples helped me explain how one decision can depend on another. Working through an `else` connection reinforced that indentation affects program behavior.
-
-## My CPT Checkpoint
-
-My Daily Calorie Tracker checkpoint explored how a program could organize meals and report calorie totals, meal breakdowns, and goal status.
-
-The checkpoint includes examples in College Board pseudocode, Python, and JavaScript covering input, output, lists, procedures, sequencing, selection, iteration, searching, and Boolean logic.
-
-For example, `calculateAverageCalories` loops through a list, calculates a total, and checks whether the list is empty before dividing. `findFood` searches a food list and returns a position or `-1` when no match exists.
-
-These examples helped me understand how separate concepts fit together and how similar logic can be expressed in different languages. The Python and JavaScript examples use editable sample values. Adding actual user input and connecting the examples into one program are future steps.
-
-## FOPL Project Planning
-
-Our team is continuing the **Friends of the Poway Library (FOPL)** website, which serves customers, visitors, volunteers, families, and the community.
-
-I worked on organizing frontend tasks through GitHub Issues. Our planning discussions included homepage/navigation, catalog, volunteer/contact, and newsletter improvements.
-
-This helped me understand that a useful issue should explain what the user does, the expected result, and how the team will test it. Our [team project board](https://github.com/FOPL-Team-2026/bb-pages/projects) provides a place to organize those tasks.
-
-Because we are continuing an existing website, I need to distinguish inherited features from our new contributions. My next step is to connect planning to specific changes and document my own implementation and testing.
-
-## Personal and Team Growth
-
-I became more persistent when working through unfamiliar tools and errors. Asking questions helped me make progress, but I also recognized that I need to become more independent. I want to understand why a solution works rather than only follow instructions.
-
-My Ground Zero reflection identified organization, timeliness, and communication as areas to improve. I need to keep track of tasks and document progress while working instead of waiting until the end.
-
-As a teammate, I want to communicate blockers sooner and clarify responsibilities. Breaking a large task into smaller steps should help our team track progress and give useful feedback.
-
-## AI and the Development Process
-
-I used AI to help explain concepts, troubleshoot problems, and organize project ideas. To make this useful for learning, I need to test suggestions and explain the results myself.
-
-The development process connects to both my checkpoint and FOPL work: identify a problem, plan a solution, design the interaction, write code, test the behavior, share progress, and improve from feedback.
-
-I want to apply incremental development by adding and testing one component at a time. This should make errors easier to identify and connects directly to what I learned from the MCQ.
-
 ## MCQ Results and Review
 
 I completed the practice MCQ with **54/66 (81.8%)**, missing 12 questions.
@@ -140,7 +80,67 @@ I also need to read directions carefully. On Q64 and Q65, I selected one correct
 
 After reviewing, I will try a fresh practice set and check whether I can explain the answers without help.
 
-## Applying the Review to My Projects
+## My Work So Far
+
+| Experience | Main Takeaway |
+| --- | --- |
+| Setting up tools and my portfolio | Understand how VS Code, GitHub, and publishing connect. |
+| Preparing the Nested Conditionals lesson | Explain program decisions through clear examples. |
+| Daily Calorie Tracker CPT checkpoint | Connect lists, procedures, and algorithms to a useful program idea. |
+| Programming and SASS exercises | Practice program logic and interface organization. |
+| FOPL project planning | Define user actions, deliverables, and testing expectations. |
+| Team collaboration | Communicate progress and take responsibility for tasks. |
+| College Board MCQ practice | Identify strengths and specific areas to improve. |
+
+## Sprint 1 and 2 Retrospective
+
+At the beginning of the course, I focused on learning development tools and organizing my portfolio. I became more comfortable using VS Code, GitHub, GitHub Issues, and GitHub Pages. I also practiced using a Python virtual environment and running my project locally.
+
+My [Ground Zero evaluation](https://github.com/raadinansari-pixel/portfolio/issues/2) documented my progress with tools, coding, communication, and work habits. I recognized that I could perform more tasks than before, but still needed support with coding and troubleshooting.
+
+One important lesson was that editing a file, committing changes, and checking the published result are separate steps. When changes were not visible on my portfolio, I had to consider the entire workflow.
+
+During Sprint 2, I worked on programming and SASS activities involving Boolean expressions, nested conditionals, libraries, grids, buttons, toggles, containers, and typography. These activities helped me connect program behavior with how information is presented to a user.
+
+For our **3.07 Nested Conditionals lesson**, my assigned sections were Tech Talk 2, “Homework Before Dinner,” and Popcorn activities 1 and 2. Preparing examples helped me explain how one decision can depend on another. Working through an `else` connection reinforced that indentation affects program behavior.
+
+## My CPT Checkpoint
+
+My Daily Calorie Tracker checkpoint explored how a program could organize meals and report calorie totals, meal breakdowns, and goal status.
+
+The checkpoint includes examples in College Board pseudocode, Python, and JavaScript covering input, output, lists, procedures, sequencing, selection, iteration, searching, and Boolean logic.
+
+For example, `calculateAverageCalories` loops through a list, calculates a total, and checks whether the list is empty before dividing. `findFood` searches a food list and returns a position or `-1` when no match exists.
+
+These examples helped me understand how separate concepts fit together and how similar logic can be expressed in different languages. The Python and JavaScript examples use editable sample values. Adding actual user input and connecting the examples into one program are future steps.
+
+## FOPL Project Planning
+
+Our team is continuing the **Friends of the Poway Library (FOPL)** website, which serves customers, visitors, volunteers, families, and the community.
+
+I worked on organizing frontend tasks through GitHub Issues. Our planning discussions included homepage/navigation, catalog, volunteer/contact, and newsletter improvements.
+
+This helped me understand that a useful issue should explain what the user does, the expected result, and how the team will test it. Our [team project board](https://github.com/FOPL-Team-2026/bb-pages/projects) provides a place to organize those tasks.
+
+Because we are continuing an existing website, I need to distinguish inherited features from our new contributions. My next step is to connect planning to specific changes and document my own implementation and testing.
+
+## Personal and Team Growth
+
+I became more persistent when working through unfamiliar tools and errors. Asking questions helped me make progress, but I also recognized that I need to become more independent. I want to understand why a solution works rather than only follow instructions.
+
+My Ground Zero reflection identified organization, timeliness, and communication as areas to improve. I need to keep track of tasks and document progress while working instead of waiting until the end.
+
+As a teammate, I want to communicate blockers sooner and clarify responsibilities. Breaking a large task into smaller steps should help our team track progress and give useful feedback.
+
+## AI and the Development Process
+
+I used AI to help explain concepts, troubleshoot problems, and organize project ideas. To make this useful for learning, I need to test suggestions and explain the results myself.
+
+The development process connects to both my checkpoint and FOPL work: identify a problem, plan a solution, design the interaction, write code, test the behavior, share progress, and improve from feedback.
+
+I want to apply incremental development by adding and testing one component at a time. This should make errors easier to identify and connects directly to what I learned from the MCQ.
+
+## Applying the MCQ Review to My Projects
 
 My Daily Calorie Tracker checkpoint gives me a foundation for explaining program purpose, input and output, lists, and procedures with parameters.
 
